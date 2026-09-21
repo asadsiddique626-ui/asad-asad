@@ -1,0 +1,7 @@
+{
+  "name": "Witness Protocol",
+  "description": "AI-assisted decentralized arbitration network providing instant, low-cost dispute resolution for digital marketplaces, escrows, and Web3 platforms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

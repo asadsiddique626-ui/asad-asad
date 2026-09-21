@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Witness Protocol — AI-Assisted Decentralized Arbitration Network</title>
+    <script>
+      (function() {
+        try {
+          let currentFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function() {
+              return currentFetch;
+            },
+            set: function(newFetch) {
+              currentFetch = newFetch;
+            }
+          });
+        } catch (_) {}
+      })();
+    </script>
+    <meta name="description" content="Witness Protocol is the arbitration layer for the internet economy. Resolve $50–$5000 disputes in seconds using AI pre-screening with staked human jury escalation on Polygon." />
+    <meta property="og:title" content="Witness Protocol — AI-Assisted Decentralized Arbitration Network" />
+    <meta property="og:description" content="AI pre-screening meets decentralized human jury escalation for instant, bias-free contract dispute resolution. Like Stripe for payments, Witness is for disputes." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#090b10] text-[#f1f5f9] antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
